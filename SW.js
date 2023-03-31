@@ -16,6 +16,7 @@ self.addEventListener("install", function (event) {
   return self.clients.claim();
 });
 
+//cache then network 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.open('first-app')
@@ -29,7 +30,7 @@ self.addEventListener('fetch', function(event) {
   );
 });
 
-
+//cache offline
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request)
