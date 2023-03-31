@@ -16,21 +16,8 @@ self.addEventListener("install", function (event) {
   return self.clients.claim();
 });
 
-// //cache then network 
-// self.addEventListener('fetch', function(event) {
-//   event.respondWith(
-//     caches.open('first-app')
-//       .then(function(cache) {
-//         return fetch(event.request)
-//           .then(function(res) {
-//             cache.put(event.request, res.clone());
-//             return res;
-//           });
-//       })
-//   );
-// });
 
-//cache offline
+//cache offline and cache then network
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request)
