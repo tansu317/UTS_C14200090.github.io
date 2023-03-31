@@ -4,12 +4,12 @@ self.addEventListener("install", function (event) {
       cache.addAll([
         "/",
         "index.html",
-        "styles.css",
-        "app.js",
         "blog.html",
         "about.html",
         "contact.html",
         "portfolio-example01.html",
+        "styles.css",
+        "app.js"
       ]);
     })
   );
