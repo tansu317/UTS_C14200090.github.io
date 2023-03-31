@@ -1,0 +1,51 @@
+{
+    "name": "UTS as Progressive Web App",
+    "short_name": "UTS C14200090",
+    "icons": [
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#fff",
+    "theme_color": "#3f51b5",
+    "description": "Progressive Web App Mid Term Test",
+    "dir": "ltr",
+    "lang": "en-US"
+  }
+  
