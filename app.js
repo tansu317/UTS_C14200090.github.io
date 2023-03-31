@@ -1,4 +1,4 @@
-navigator.serviceWorker.register('sw.js');
+navigator.serviceWorker.register('SW.js');
 
 var deferredPrompt;
 window.addEventListener('beforeinstallprompt', function(event) {
